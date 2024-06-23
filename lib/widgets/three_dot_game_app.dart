@@ -37,24 +37,25 @@ class ThreeDotGameApp extends StatelessWidget {
             gameFactory: GameBoard.new,
             overlayBuilderMap: {
               PlayState.welcome.name: (context, game) => Center(
-                      child: ElevatedButton(
-                    onPressed: () {
-                      // Add your onPressed logic here
-                    },
-                    child:
-                    Column(
-                      children: [
-                        Text('Learn Ho To play'),
-                        Text('Learn Ho To play'),
-                      ],
-                    ),
-                  )
+                      child:
+                  //     ElevatedButton(
+                  //   onPressed: () {
+                  //     // Add your onPressed logic here
+                  //   },
+                  //   child:
+                  //   Column(
+                  //     children: [
+                  //       Text('Learn Ho To play'),
+                  //       Text('Learn Ho To play'),
+                  //     ],
+                  //   ),
+                  // )
 
-                      // Text(
-                      //   'Click Below',
-                      //   style: Theme.of(context).textTheme.headlineLarge,
-                      //   textAlign: TextAlign.center,
-                      // ),
+                      Text(
+                        'Click Below',
+                        style: Theme.of(context).textTheme.headlineLarge,
+                        textAlign: TextAlign.center,
+                      ),
                       ),
               // PlayState.welcome.name: (context, game) => Center(
               //     child: ElevatedButton(
