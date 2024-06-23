@@ -19,20 +19,20 @@ class ThreeDotGameApp extends StatelessWidget {
             displayColor: const Color(0xff184e77),
           )),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text("Chur Bhur game"),
-        ),
+        // appBar: AppBar(
+        //   title: Text("Chur Bhur game"),
+        // ),
         body: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Color(0xffa9d6e5),
-                Color(0xfff2e8cf),
-              ],
-            ),
-          ),
+          // decoration: const BoxDecoration(
+          //   gradient: LinearGradient(
+          //     begin: Alignment.topCenter,
+          //     end: Alignment.bottomCenter,
+          //     colors: [
+          //       Color(0xffa9d6e5),
+          //       Color(0xfff2e8cf),
+          //     ],
+          //   ),
+          // ),
           child: GameWidget.controlled(
             gameFactory: GameBoard.new,
             overlayBuilderMap: {
